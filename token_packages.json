@@ -1,0 +1,4 @@
+{"_id":{"$oid":"659ed676aa4862416a30f481"},"packageName":"1000 Tokens","token":{"$numberInt":"1000"},"costPerCredit":{"$numberDouble":"0.5"}}
+{"_id":{"$oid":"659ed6b7aa4862416a30f482"},"packageName":"10000 Tokens","token":{"$numberInt":"10000"},"costPerCredit":{"$numberDouble":"0.4"}}
+{"_id":{"$oid":"659ed6c8aa4862416a30f483"},"packageName":"100000 Tokens","token":{"$numberInt":"100000"},"costPerCredit":{"$numberDouble":"0.3"}}
+{"_id":{"$oid":"659ed6ddaa4862416a30f484"},"packageName":"1000000 Tokens","token":{"$numberInt":"1000000"},"costPerCredit":{"$numberDouble":"0.2"}}
