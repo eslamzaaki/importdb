@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"3f889480e3aa4f53b33c083efbdfd384","collectionName":"coach_payout","type":"collection"}
