@@ -13,6 +13,6 @@ collections=$(mongo --username $USERNAME --password $PASSWORD --authenticationDa
 for collection in $collections
 do
     # Export each collection to a JSON file
-    mongoexport --username $USERNAME --password $PASSWORD --authenticationDatabase $AUTH_DB --db $DATABASE --collection $collection --out "new$collection.json"
+    mongoexport --username $USERNAME --password $PASSWORD --authenticationDatabase $AUTH_DB --db $DATABASE --collection $collection --out "new_${collection}.json"
 done
 
