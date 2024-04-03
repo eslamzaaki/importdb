@@ -1,1 +1,0 @@
-{"_id":{"$oid":"65eaf1748e27fb423211bbf4"},"user":{"$oid":"65de9b479226ca73d069cee8"},"bankName":"Federal Bank","accountNumber":"285940303345","routingNumber":"124003116","default":true,"createdAt":{"$date":"2024-03-08T11:07:32.326Z"},"updatedAt":{"$date":"2024-03-08T11:07:32.326Z"}}
