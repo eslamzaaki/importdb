@@ -12,7 +12,8 @@ collections=$(mongo --username $USERNAME --password $PASSWORD --authenticationDa
 
 for collection in $collections
 do
+    filename="new_$(echo $collection | sed 's/[^a-zA-Z0-9_]//g').json"
     # Export each collection to a JSON file
-    mongoexport --username $USERNAME --password $PASSWORD --authenticationDatabase $AUTH_DB --db $DATABASE --collection $collection --out "new_${collection}.json"
+    mongoexport --username $USERNAME --password $PASSWORD --authenticationDatabase $AUTH_DB --db $DATABASE --collection $collection --out "$filename"
 done
 
